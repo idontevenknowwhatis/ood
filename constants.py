@@ -1,0 +1,16 @@
+import argparse
+
+# TOKENIZER PARAMETERS
+PADDING = 'max_length'
+MAX_LENGTH = 256
+TRUNCATION = True
+
+# DATASET PARAMETERS
+VAL_TEST_SPLIT = 0.5
+
+# DATALOADER PARAMETERS
+BATCH_SIZE = 32
+
+
+dbpedia_label_k = 4
+news_label_k = 5
